@@ -1,16 +1,128 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="DiceRoll_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="omK-ZK-x26">
+                            <items>
+                                <button width="40" alignment="left" title="D4" id="dv9-DC-D9V">
+                                    <connections>
+                                        <action selector="d4ButtonClicked" destination="AgC-eL-Hgc" id="Q2a-ol-DOO"/>
+                                    </connections>
+                                </button>
+                                <button width="40" alignment="center" title="D6" id="tLD-WM-rk6">
+                                    <connections>
+                                        <action selector="d6ButtonClicked" destination="AgC-eL-Hgc" id="uxZ-33-FiQ"/>
+                                    </connections>
+                                </button>
+                                <button width="40" alignment="right" title="D8" id="EZC-Dj-zgu">
+                                    <connections>
+                                        <action selector="d8ButtonClicked" destination="AgC-eL-Hgc" id="9d7-ha-E3j"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="bwC-Gd-xxz">
+                            <items>
+                                <button width="40" alignment="left" title="D10" id="PR4-b6-48g">
+                                    <connections>
+                                        <action selector="d10ButtonClicked" destination="AgC-eL-Hgc" id="dOw-Gd-pzK"/>
+                                    </connections>
+                                </button>
+                                <button width="40" alignment="center" title="D12" id="Laa-o4-rJC">
+                                    <connections>
+                                        <action selector="d12ButtonClicked" destination="AgC-eL-Hgc" id="yCJ-bI-aNM"/>
+                                    </connections>
+                                </button>
+                                <button width="40" alignment="right" title="D20" id="Hu0-Jw-V2t">
+                                    <connections>
+                                        <action selector="d20ButtonClicked" destination="AgC-eL-Hgc" id="9dF-dt-F7b"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="n8u-up-mSs">
+                            <items>
+                                <button width="1" alignment="left" title="D100" id="ToA-x5-Qn4">
+                                    <connections>
+                                        <action selector="d100ButtonClicked" destination="AgC-eL-Hgc" id="dEN-nW-guG"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Button" id="YmE-mI-Ygr">
+                            <connections>
+                                <segue destination="orE-aZ-d0D" kind="push" id="Dgg-jY-BWv"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Table ExampleIC-->
+        <scene sceneID="Ajr-XT-aJ8">
+            <objects>
+                <controller hidesWhenLoading="NO" id="orE-aZ-d0D" customClass="TableExampleIC" customModule="DiceRoll_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="beQ-Nb-Ing">
+                            <items>
+                                <table alignment="left" id="XjO-gw-ILQ">
+                                    <items>
+                                        <tableRow identifier="cell" id="gMK-a2-F74" customClass="DiceRow" customModule="DiceRoll_WatchKit_Extension">
+                                            <group key="rootItem" width="1" alignment="left" id="1yb-jQ-4tf">
+                                                <items>
+                                                    <imageView alignment="center" verticalAlignment="center" image="23.jpg" id="1A2-HG-uzF"/>
+                                                    <label width="0.67000000000000004" widthAdjustment="7" alignment="center" verticalAlignment="center" text="D4" id="NAG-dD-nB9"/>
+                                                </items>
+                                            </group>
+                                            <connections>
+                                                <outlet property="theImage" destination="1A2-HG-uzF" id="jcf-ai-IKa"/>
+                                                <outlet property="theLabel" destination="NAG-dD-nB9" id="azw-qG-kuK"/>
+                                            </connections>
+                                        </tableRow>
+                                    </items>
+                                </table>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="theTable" destination="XjO-gw-ILQ" id="90W-Mx-TyM"/>
+                        <segue destination="oyi-Ud-Qup" kind="relationship" relationship="nextPage" id="gQe-pa-5sC"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="407" y="342"/>
+        </scene>
+        <!--Picker ExampleIC-->
+        <scene sceneID="stF-0J-Kwi">
+            <objects>
+                <controller hidesWhenLoading="NO" id="oyi-Ud-Qup" customClass="PickerExampleIC" customModule="DiceRoll_WatchKit_Extension">
+                    <items>
+                        <picker alignment="center" style="stack" id="Aqh-jA-gC6">
+                            <connections>
+                                <action selector="PickerWasClicked:" destination="oyi-Ud-Qup" id="P2i-Mz-VTR"/>
+                            </connections>
+                        </picker>
+                        <button width="1" alignment="left" title=" Which one pressed?" id="iDf-N1-k1h">
+                            <connections>
+                                <action selector="whichOne" destination="oyi-Ud-Qup" id="mVM-VY-UP5"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="thePicker" destination="Aqh-jA-gC6" id="DCo-VK-WEg"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="631" y="347"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -31,7 +143,7 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="DiceRoll_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>

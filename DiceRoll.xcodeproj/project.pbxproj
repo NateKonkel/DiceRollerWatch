@@ -22,6 +22,16 @@
 		6467C2801BB8831E00C623D2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6467C27F1BB8831E00C623D2 /* ExtensionDelegate.swift */; };
 		6467C2821BB8831E00C623D2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6467C2811BB8831E00C623D2 /* NotificationController.swift */; };
 		6467C2841BB8831E00C623D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6467C2831BB8831E00C623D2 /* Assets.xcassets */; };
+		64D389FB1BBC6E5C008C75F2 /* PickerExampleIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D389FA1BBC6E5C008C75F2 /* PickerExampleIC.swift */; settings = {ASSET_TAGS = (); }; };
+		64D38A021BBC6ED3008C75F2 /* d4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64D389FC1BBC6ED3008C75F2 /* d4.jpg */; settings = {ASSET_TAGS = (); }; };
+		64D38A031BBC6ED3008C75F2 /* d6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64D389FD1BBC6ED3008C75F2 /* d6.jpg */; settings = {ASSET_TAGS = (); }; };
+		64D38A041BBC6ED3008C75F2 /* d8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 64D389FE1BBC6ED3008C75F2 /* d8.jpeg */; settings = {ASSET_TAGS = (); }; };
+		64D38A051BBC6ED3008C75F2 /* d10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64D389FF1BBC6ED3008C75F2 /* d10.jpg */; settings = {ASSET_TAGS = (); }; };
+		64D38A061BBC6ED3008C75F2 /* d20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64D38A001BBC6ED3008C75F2 /* d20.jpg */; settings = {ASSET_TAGS = (); }; };
+		64D38A071BBC6ED3008C75F2 /* d100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64D38A011BBC6ED3008C75F2 /* d100.jpg */; settings = {ASSET_TAGS = (); }; };
+		64D38A091BBC73B3008C75F2 /* d12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64D38A081BBC73B3008C75F2 /* d12.jpg */; settings = {ASSET_TAGS = (); }; };
+		64F5A4FC1BBC5B1400ABD090 /* DiceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F5A4FB1BBC5B1400ABD090 /* DiceRow.swift */; settings = {ASSET_TAGS = (); }; };
+		64F5A4FE1BBC5DEB00ABD090 /* TableExampleIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F5A4FD1BBC5DEB00ABD090 /* TableExampleIC.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +115,16 @@
 		6467C2811BB8831E00C623D2 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		6467C2831BB8831E00C623D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6467C2851BB8831E00C623D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D389FA1BBC6E5C008C75F2 /* PickerExampleIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerExampleIC.swift; sourceTree = "<group>"; };
+		64D389FC1BBC6ED3008C75F2 /* d4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d4.jpg; sourceTree = "<group>"; };
+		64D389FD1BBC6ED3008C75F2 /* d6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d6.jpg; sourceTree = "<group>"; };
+		64D389FE1BBC6ED3008C75F2 /* d8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d8.jpeg; sourceTree = "<group>"; };
+		64D389FF1BBC6ED3008C75F2 /* d10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d10.jpg; sourceTree = "<group>"; };
+		64D38A001BBC6ED3008C75F2 /* d20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d20.jpg; sourceTree = "<group>"; };
+		64D38A011BBC6ED3008C75F2 /* d100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d100.jpg; sourceTree = "<group>"; };
+		64D38A081BBC73B3008C75F2 /* d12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d12.jpg; sourceTree = "<group>"; };
+		64F5A4FB1BBC5B1400ABD090 /* DiceRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceRow.swift; sourceTree = "<group>"; };
+		64F5A4FD1BBC5DEB00ABD090 /* TableExampleIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableExampleIC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +217,7 @@
 		6467C26B1BB8831D00C623D2 /* DiceRoll WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				64F5A4F81BBC5A3700ABD090 /* Images */,
 				6467C26C1BB8831D00C623D2 /* Interface.storyboard */,
 				6467C26F1BB8831D00C623D2 /* Assets.xcassets */,
 				6467C2711BB8831D00C623D2 /* Info.plist */,
@@ -213,6 +234,8 @@
 				6467C2831BB8831E00C623D2 /* Assets.xcassets */,
 				6467C2851BB8831E00C623D2 /* Info.plist */,
 				6467C27B1BB8831E00C623D2 /* Supporting Files */,
+				64F5A4FD1BBC5DEB00ABD090 /* TableExampleIC.swift */,
+				64D389FA1BBC6E5C008C75F2 /* PickerExampleIC.swift */,
 			);
 			path = "DiceRoll WatchKit Extension";
 			sourceTree = "<group>";
@@ -220,9 +243,24 @@
 		6467C27B1BB8831E00C623D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				64F5A4FB1BBC5B1400ABD090 /* DiceRow.swift */,
 				6467C27C1BB8831E00C623D2 /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64F5A4F81BBC5A3700ABD090 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				64D38A081BBC73B3008C75F2 /* d12.jpg */,
+				64D389FC1BBC6ED3008C75F2 /* d4.jpg */,
+				64D389FD1BBC6ED3008C75F2 /* d6.jpg */,
+				64D389FE1BBC6ED3008C75F2 /* d8.jpeg */,
+				64D389FF1BBC6ED3008C75F2 /* d10.jpg */,
+				64D38A001BBC6ED3008C75F2 /* d20.jpg */,
+				64D38A011BBC6ED3008C75F2 /* d100.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,8 +434,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64D38A021BBC6ED3008C75F2 /* d4.jpg in Resources */,
+				64D38A041BBC6ED3008C75F2 /* d8.jpeg in Resources */,
 				6467C2701BB8831D00C623D2 /* Assets.xcassets in Resources */,
+				64D38A061BBC6ED3008C75F2 /* d20.jpg in Resources */,
+				64D38A071BBC6ED3008C75F2 /* d100.jpg in Resources */,
+				64D38A051BBC6ED3008C75F2 /* d10.jpg in Resources */,
+				64D38A091BBC73B3008C75F2 /* d12.jpg in Resources */,
 				6467C26E1BB8831D00C623D2 /* Interface.storyboard in Resources */,
+				64D38A031BBC6ED3008C75F2 /* d6.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,8 +486,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F5A4FE1BBC5DEB00ABD090 /* TableExampleIC.swift in Sources */,
 				6467C2821BB8831E00C623D2 /* NotificationController.swift in Sources */,
+				64F5A4FC1BBC5B1400ABD090 /* DiceRow.swift in Sources */,
 				6467C2801BB8831E00C623D2 /* ExtensionDelegate.swift in Sources */,
+				64D389FB1BBC6E5C008C75F2 /* PickerExampleIC.swift in Sources */,
 				6467C27E1BB8831E00C623D2 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -730,6 +778,7 @@
 				6467C28A1BB8831E00C623D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6467C28C1BB8831E00C623D2 /* Build configuration list for PBXNativeTarget "DiceRoll WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -738,6 +787,7 @@
 				6467C28E1BB8831E00C623D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6467C2901BB8831E00C623D2 /* Build configuration list for PBXNativeTarget "DiceRoll" */ = {
 			isa = XCConfigurationList;
@@ -746,6 +796,7 @@
 				6467C2921BB8831E00C623D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6467C2931BB8831E00C623D2 /* Build configuration list for PBXNativeTarget "DiceRollTests" */ = {
 			isa = XCConfigurationList;
@@ -754,6 +805,7 @@
 				6467C2951BB8831E00C623D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6467C2961BB8831E00C623D2 /* Build configuration list for PBXNativeTarget "DiceRollUITests" */ = {
 			isa = XCConfigurationList;
@@ -762,6 +814,7 @@
 				6467C2981BB8831E00C623D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
